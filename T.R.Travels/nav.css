@@ -1,0 +1,78 @@
+﻿.nav
+{
+    position:absolute;
+    width:750px;
+    height:40px;
+    list-style-type:none;
+    background:url(images/menu.png) no-repeat;
+    background-position:right;
+    text-indent:-9999px;
+    margin-top:70px;
+    float:right;
+}
+
+.nav li 
+{
+    float:left;
+}
+
+.nav li a.one 
+{
+    width:150px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.two 
+{
+    width:200px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.three 
+{
+    width:200px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.four 
+{
+    width:200px;
+    height:40px;
+    display:block;
+}
+
+
+.nav li a.one:hover
+{
+    background:url(images/1_01.png) no-repeat;
+    width:150px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.two:hover
+{
+    background:url(images/1_02.png) no-repeat;
+    width:200px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.three:hover
+{
+    background:url(images/1_03.png) no-repeat;
+    width:200px;
+    height:40px;
+    display:block;
+}
+
+.nav li a.four:hover
+{
+    background:url(images/1_04.png) no-repeat;
+    width:200px;
+    height:40px;
+    display:block;
+}

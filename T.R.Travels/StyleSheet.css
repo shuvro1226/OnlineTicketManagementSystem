@@ -1,0 +1,400 @@
+﻿body
+{
+    background-image:url(images/backgroundall.png);
+    background-repeat:repeat-x;
+    height:120px;
+    width:100%;
+}
+
+h2,h3,h4
+{
+    font-family:Lucida Sans;
+    color:#2d659c;
+}
+
+.wrapper
+{
+    width:1000px;
+    height:auto;
+    padding-left:100px;
+    margin:0 auto;
+}
+
+.header 
+{
+    width:100%;
+    height:120px;
+}
+
+.header b
+{
+    font-family:Lucida Fax;
+    color:White;
+    padding-left:40px;
+    position:absolute;
+    margin-top:10px;
+    font-size:xx-large;
+}
+
+.inner
+{
+    height:auto;
+    width:900px;
+    font-size:medium;
+}
+
+.inner a
+{
+    color:#2d659c;
+    text-decoration:none;
+}
+
+.footer
+{
+    background-image:url(images/footer.png);
+    background-repeat:repeat-x;
+    height:50px;
+    width:100%;
+    float:left;
+    text-align:center;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-bottom:-10px;
+    margin-top:20px;
+}
+
+.footer a 
+{
+    color:White;
+    font-size:small;
+    text-decoration:none;
+    font-family:Lucida Fax;
+}
+
+.footer a:hover 
+{
+    text-decoration:underline;
+}
+
+.footer_list li
+{
+    padding:10px;
+    list-style-type:none;
+    display:inline;
+}
+
+#content
+{
+    background-image:url(images/About.png);
+    background-repeat:no-repeat;
+    width:auto;
+    height:auto;
+    width:900px;
+    padding:20px;
+    margin:20px 20px;
+}
+
+.bodycontent 
+{
+    float:left;
+    background-color:White;
+    padding:15px;
+    width:400px; 
+}
+
+.content
+{
+    margin-top:50px;
+}
+
+.content_container
+{
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container1
+{
+    background-image:url(images/Dhaka.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container2
+{
+    background-image:url(images/Bogra.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container3
+{
+    background-image:url(images/Rangpur.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container4
+{
+    background-image:url(images/CoxsBazar.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container5
+{
+    background-image:url(images/Chittagong.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+.content_container6
+{
+    background-image:url(images/Naogaon.png);
+    background-repeat:no-repeat;
+    width:280px;
+    height:auto;
+    border:1px solid #2d659c;
+    float:left;
+    padding-top:20px;
+}
+
+ol.ordered
+{
+    
+    list-style-type:none;
+}
+
+ol.ordered li
+{
+    margin-top:10px;
+    margin-left:25px;
+    padding-left:45px;
+    font-weight:bold;
+}
+
+ol.ordered li.first
+{
+    background:url(images/1.png) no-repeat;
+}
+
+ol.ordered li.second
+{
+    background:url(images/2.png) no-repeat;
+}
+
+ol.ordered li.third
+{
+    background:url(images/3.png) no-repeat;
+}
+
+ol.ordered li.forth
+{
+    background:url(images/4.png) no-repeat;
+}
+
+.cell
+{
+    position:absolute;
+    height:55px;
+    width:300px;
+    font-size:larger;
+    margin-top:80px;
+    float:left;
+    text-align:center;
+}
+
+.search
+{
+    background-image:url(images/Search.png);
+    height:40px;
+    width:150px;
+    background-color:transparent;
+    margin-top:90px;
+    margin-left:30px;
+}
+
+.searchcontent
+{
+    font-family:Lucida Fax;
+    font-size:larger;
+    background-image:url(images/SearchBus.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:500px;
+    height:350px;
+    margin-left:-30px;
+}
+
+.searchcontent1
+{
+    padding:35px;
+    width:180px;
+    float:left;
+}
+
+.siteicon
+{
+    position:absolute;
+    margin-left:800px;
+}
+
+.schedulesort
+{
+    padding:20px;
+    width:auto;
+    float:left;
+}
+
+.imagedriver
+{
+    margin-left:20px;
+    float:left;
+}
+
+.seatCell
+{
+    width:8%;
+    
+}
+
+.image4
+{
+    margin-top:150px;
+    margin-left:50px;
+}
+
+.panel1
+{
+    margin-top:20px;
+}
+
+.panel2
+{
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+}
+
+.label1
+{
+    font-family:Lucida Sans;
+    font-weight:bold;
+}
+
+.passinfo
+{
+    background-image:url(images/Customer.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:350px;
+    height:auto;
+    float:left;
+}
+
+.passcontent
+{
+    padding:20px;
+    margin-top:60px;
+    float:left;
+}
+
+.payinfo
+{
+    background-image:url(images/Payment.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:250px;
+    height:auto;
+    float:left;
+}
+
+.operator
+{
+    background-image:url(images/Operator.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:500px;
+    height:auto;
+    float:left;
+}
+
+.operatorcontent
+{
+    padding:10px;
+    margin-top:50px;
+    float:left;
+}
+
+.addoperator
+{
+    background-image:url(images/AddOperator.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:300px;
+    height:auto;
+    float:left;
+    margin-left:20px;
+}
+
+.access
+{
+    background-image:url(images/Access.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:250px;
+    height:auto;
+    float:left;
+}
+
+.pnr
+{
+    background-image:url(images/Passenger.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:250px;
+    height:auto;
+    float:left;
+    margin-left:20px;
+}
+
+.passgrid
+{
+    padding-top:20px;
+    float:left;
+}
+
+.operatorsearch
+{
+    font-family:Lucida Fax;
+    font-size:larger;
+    background-image:url(images/operatorsearch.png);
+    background-repeat:no-repeat;
+    border:1px solid #2d659c;
+    width:500px;
+    height:350px;
+    float:left;
+}
